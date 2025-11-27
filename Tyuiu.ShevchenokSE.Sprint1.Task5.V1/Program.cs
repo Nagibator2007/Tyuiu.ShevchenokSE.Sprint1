@@ -1,0 +1,40 @@
+﻿using Tyuiu.ShevchenokSE.Sprint1.Task5.V1.Lib;
+namespace Tyuiu.ShevchenokSE.Sprint1.Task5.V1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            DataService ds = new DataService();
+            Console.Title = "Спринт #1 | Выполнил: Шевченок С.Е. | СМАРТб-25-1";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Тема: Преобразование типов и класс Convert                              *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #1                                                              *");
+            Console.WriteLine("* Выполнил: Шевченок Сергей Евгеньевич | СМАРТб-25-1                      *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая находит расстояние медлу двумя точками c    *");
+            Console.WriteLine("* заданными координатами (x, y).Ответ привести к целому с помощью класса  *");
+            Console.WriteLine("* Convert.                                                                *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("Ввелите координату X1:");
+            double x1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ввелите координату Y1:");
+            double y1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ввелите координату X2:");
+            double x2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ввелите координату Y2:");
+            double y2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+            int res = Convert.ToInt32(ds.DistanceBetweenDots(x1, y1, x2, y2));
+            Console.WriteLine("Расстояние между двумя точками с заданными координатами = " + res);
+            Console.ReadKey();
+        }
+    }
+}
