@@ -16,6 +16,7 @@ namespace Tyuiu.ShevchenokSE.Sprint1.Task5.V1.Test
             int result = Convert.ToInt32(res);
             int wait = 10;
             Assert.AreEqual(wait, result);
+
         }
     }
 }
