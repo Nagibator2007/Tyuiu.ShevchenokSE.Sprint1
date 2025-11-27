@@ -19,23 +19,16 @@ namespace Tyuiu.ShevchenokSE.Sprint1.Task2.V21
             Console.WriteLine("**********************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                       *");
             Console.WriteLine("**********************************************************");
-
             int x;
-
             Console.WriteLine("Введите значение первой стороны:*");
             x = Convert.ToInt32(Console.ReadLine());
-
             int y;
             Console.WriteLine("Введите значение второй стороны");
             y = Convert.ToInt32(Console.ReadLine());
-
-
             Console.WriteLine("**********************************************************");
             Console.WriteLine("* Результат:                                             *");
             Console.WriteLine("**********************************************************");
-
             Console.WriteLine("Площадь прямоугольника равна:" + ds.CalculateRectangleSquare(x, y));
-
             Console.ReadLine();
         }
     }
