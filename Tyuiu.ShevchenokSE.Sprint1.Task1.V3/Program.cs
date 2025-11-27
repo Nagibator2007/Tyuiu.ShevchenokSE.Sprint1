@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tyuiu.ShevchenokSE.Sprint1.Task1.V3.Lib;
-
+﻿using Tyuiu.ShevchenokSE.Sprint1.Task1.V3.Lib;
 namespace Tyuiu.ShevchenokSE.Sprint1.Task1.V3
 {
     internal class Program
@@ -28,20 +22,15 @@ namespace Tyuiu.ShevchenokSE.Sprint1.Task1.V3
             Console.WriteLine("**********************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                       *");
             Console.WriteLine("**********************************************************");
-
             double x, y, a;
-
             Console.WriteLine("Введите значение X:*");
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение Y");
             y = Convert.ToDouble(Console.ReadLine());
-        
             Console.WriteLine("**********************************************************");
             Console.WriteLine("* Результат:                                             *");
             Console.WriteLine("**********************************************************");
-
             Console.WriteLine(ds.Calculate(x, y));
-
             Console.ReadLine();
         }
     }

@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Tyuiu.ShevchenokSE.Sprint1.Task0.V1.Lib;
-
+﻿using Tyuiu.ShevchenokSE.Sprint1.Task0.V1.Lib;
 namespace Tyuiu.ShevchenokSE.Sprint1.Task0.V1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
+
             {
                 DataService ds = new DataService();
                 Console.Title = "Спринт #1| Выполнил: Шевченок С.Е.| СМАРТб-25-1";
@@ -34,9 +28,7 @@ namespace Tyuiu.ShevchenokSE.Sprint1.Task0.V1
                 Console.WriteLine("****************************************************");
                 Console.WriteLine("* РЕЗУЛЬТАТ:                                       *");
                 Console.WriteLine("****************************************************");
-
                 Console.WriteLine(ds.Calculate());
-
                 Console.ReadLine();
 
             }

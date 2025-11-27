@@ -1,7 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using Tyuiu.ShevchenokSE.Sprint1.Task0.V1.Lib;
-
+﻿using Tyuiu.ShevchenokSE.Sprint1.Task0.V1.Lib;
 namespace Tyuiu.ShevchenokSE.Sprint1.Task0.V1.Test
 {
     [TestClass]
