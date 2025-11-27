@@ -7,7 +7,7 @@ namespace Tyuiu.ShevchenokSE.Sprint1.Task7.V2.Lib
         {
 
             double res = ((Math.Sin(x) + Math.Cos(y)) / (Math.Cos(x) - Math.Sin(y))) * Math.Tan(x * y);
-            return res;
+            return Math.Round(res, 3);
 
         }
     }
