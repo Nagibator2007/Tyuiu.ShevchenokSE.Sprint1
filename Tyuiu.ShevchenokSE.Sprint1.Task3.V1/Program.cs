@@ -29,6 +29,8 @@ namespace Tyuiu.ShevchenokSE.Sprint1.Task3.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine(ds.CylinderVolume(r, h) + " Объем цилиндра");
+            double result = ds.CylinderVolume(r, h);
+            Console.WriteLine($"{result:F3} Объем цилиндра");
             Console.ReadLine();
         }
     }
